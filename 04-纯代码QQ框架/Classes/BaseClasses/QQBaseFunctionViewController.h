@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface QQBaseFunctionViewController : UIViewController
+@interface QQBaseFunctionViewController : UIViewController <UITableViewDataSource,UITableViewDelegate>
 
 -(void)loadDataWithPlistName:(NSString *)plistName;
 

@@ -11,7 +11,7 @@
 #import "QQFunctionCell.h"
 
 
-@interface QQBaseFunctionViewController () <UITableViewDataSource>
+@interface QQBaseFunctionViewController ()
 
 @end
 
@@ -126,6 +126,8 @@
     
     //设置数据源对象
     tb.dataSource = self;
+    //设置代理对象
+    tb.delegate = self;
     
     //注册cell，默认的样式就是default样式，这个样式不包含detailLabel
     [tb registerClass:[UITableViewCell class] forCellReuseIdentifier:@"normal"];
