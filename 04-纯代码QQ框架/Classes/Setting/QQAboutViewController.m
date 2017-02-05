@@ -7,6 +7,7 @@
 //
 
 #import "QQAboutViewController.h"
+#import "Masonry.h"
 
 @interface QQAboutViewController ()
 
@@ -18,6 +19,43 @@
     [super viewDidLoad];
    
     [self loadDataWithPlistName:@"functionAbout.plist"];
+    
+    [self setHeader];
+}
+
+-(void)setHeader{
+    
+    UIView *headerView = [[UIView alloc] initWithFrame:CGRectMake(0, 0, 20, 150)];
+    
+    
+    //创建imageView
+    UIImageView *iv = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"setting_about_pic"]];
+    
+    [headerView addSubview:iv];
+    
+    [iv mas_makeConstraints:^(MASConstraintMaker *make) {
+        
+        make.centerX.equalTo(headerView);
+        make.top.equalTo(headerView).offset(8);
+        
+    }];
+    
+    //创建版本label
+    UILabel *lbl = [UILabel new];
+    
+    lbl.text = @"V4.8.1001";
+    
+    [headerView addSubview:lbl];
+
+    [lbl mas_makeConstraints:^(MASConstraintMaker *make) {
+        
+        make.centerX.equalTo(headerView);
+        make.top.equalTo(iv.mas_bottom).offset(8);
+    }];
+    
+    
+    //访问tableView
+    self.tableView.tableHeaderView = headerView;
 }
 
 - (void)didReceiveMemoryWarning {

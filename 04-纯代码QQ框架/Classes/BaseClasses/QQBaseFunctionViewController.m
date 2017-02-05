@@ -135,6 +135,9 @@
     
     //tableView添加到根视图
     [self.view addSubview:tb];
+    
+    //记录tableView
+    _tableView = tb;
 }
 
 

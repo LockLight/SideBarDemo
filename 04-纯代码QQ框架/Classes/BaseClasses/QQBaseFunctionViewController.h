@@ -12,4 +12,7 @@
 
 -(void)loadDataWithPlistName:(NSString *)plistName;
 
+
+@property (nonatomic,weak)UITableView *tableView;
+
 @end
