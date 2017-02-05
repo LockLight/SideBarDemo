@@ -9,10 +9,7 @@
 /* Begin PBXBuildFile section */
 		E136E4221E46CE5E006E3CEB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E136E4211E46CE5E006E3CEB /* main.m */; };
 		E136E4251E46CE5E006E3CEB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E136E4241E46CE5E006E3CEB /* AppDelegate.m */; };
-		E136E4281E46CE5E006E3CEB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E136E4271E46CE5E006E3CEB /* ViewController.m */; };
-		E136E42B1E46CE5E006E3CEB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E136E4291E46CE5E006E3CEB /* Main.storyboard */; };
 		E136E42D1E46CE5E006E3CEB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E136E42C1E46CE5E006E3CEB /* Assets.xcassets */; };
-		E136E4301E46CE5E006E3CEB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E136E42E1E46CE5E006E3CEB /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,11 +17,7 @@
 		E136E4211E46CE5E006E3CEB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		E136E4231E46CE5E006E3CEB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		E136E4241E46CE5E006E3CEB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		E136E4261E46CE5E006E3CEB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		E136E4271E46CE5E006E3CEB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		E136E42A1E46CE5E006E3CEB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E136E42C1E46CE5E006E3CEB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		E136E42F1E46CE5E006E3CEB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E136E4311E46CE5E006E3CEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -58,13 +51,10 @@
 		E136E41F1E46CE5E006E3CEB /* 04-纯代码QQ框架 */ = {
 			isa = PBXGroup;
 			children = (
+				E136E4371E46CEE1006E3CEB /* Classes */,
 				E136E4231E46CE5E006E3CEB /* AppDelegate.h */,
 				E136E4241E46CE5E006E3CEB /* AppDelegate.m */,
-				E136E4261E46CE5E006E3CEB /* ViewController.h */,
-				E136E4271E46CE5E006E3CEB /* ViewController.m */,
-				E136E4291E46CE5E006E3CEB /* Main.storyboard */,
 				E136E42C1E46CE5E006E3CEB /* Assets.xcassets */,
-				E136E42E1E46CE5E006E3CEB /* LaunchScreen.storyboard */,
 				E136E4311E46CE5E006E3CEB /* Info.plist */,
 				E136E4201E46CE5E006E3CEB /* Supporting Files */,
 			);
@@ -77,6 +67,53 @@
 				E136E4211E46CE5E006E3CEB /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E136E4371E46CEE1006E3CEB /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				E136E4391E46CEE1006E3CEB /* Main */,
+				E136E43A1E46CEE1006E3CEB /* Message */,
+				E136E4381E46CEE1006E3CEB /* Contact */,
+				E136E43B1E46CEE1006E3CEB /* Qzone */,
+				E136E43C1E46CEE1006E3CEB /* Setting */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		E136E4381E46CEE1006E3CEB /* Contact */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Contact;
+			sourceTree = "<group>";
+		};
+		E136E4391E46CEE1006E3CEB /* Main */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		E136E43A1E46CEE1006E3CEB /* Message */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Message;
+			sourceTree = "<group>";
+		};
+		E136E43B1E46CEE1006E3CEB /* Qzone */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Qzone;
+			sourceTree = "<group>";
+		};
+		E136E43C1E46CEE1006E3CEB /* Setting */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Setting;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,9 +174,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E136E4301E46CE5E006E3CEB /* LaunchScreen.storyboard in Resources */,
 				E136E42D1E46CE5E006E3CEB /* Assets.xcassets in Resources */,
-				E136E42B1E46CE5E006E3CEB /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -150,32 +185,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E136E4281E46CE5E006E3CEB /* ViewController.m in Sources */,
 				E136E4251E46CE5E006E3CEB /* AppDelegate.m in Sources */,
 				E136E4221E46CE5E006E3CEB /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		E136E4291E46CE5E006E3CEB /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E136E42A1E46CE5E006E3CEB /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		E136E42E1E46CE5E006E3CEB /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E136E42F1E46CE5E006E3CEB /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		E136E4321E46CE5E006E3CEB /* Debug */ = {
@@ -271,6 +286,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "04-纯代码QQ框架/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.itheimt.-4----QQ--";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -282,6 +298,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "04-纯代码QQ框架/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.itheimt.-4----QQ--";
 				PRODUCT_NAME = "$(TARGET_NAME)";
