@@ -21,7 +21,14 @@
 
 -(void)setupUI{
     
+    //创建tableView,plain样式
+    UITableView *tb = [[UITableView alloc] initWithFrame:self.view.bounds style:UITableViewStylePlain];
     
+    //tableView添加到根视图
+    [self.view addSubview:tb];
+    
+    //设置右边的barButtonItem
+    self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc] initWithImage:[UIImage imageNamed:@"menu_icon_bulb"] style:UIBarButtonItemStylePlain target:nil action:nil];
 }
 
 
