@@ -13,6 +13,11 @@ static NSString *rid = @"contact";
 
 @interface QQContactViewController () <UITableViewDataSource>
 
+
+@property (nonatomic,weak)UISegmentedControl *segmentCtrl;
+
+@property (nonatomic,weak)UITableView *tableView;
+
 @end
 
 @implementation QQContactViewController
@@ -30,7 +35,7 @@ static NSString *rid = @"contact";
 #pragma mark - 数据源方法
 -(NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section{
     
-    return 10;
+    return (_segmentCtrl.selectedSegmentIndex + 1) * 10; //第0个选项 10行  第1个选项20行  (索引+1) * 10
 }
 
 //返回cell
@@ -76,23 +81,23 @@ static NSString *rid = @"contact";
     //监听分段控件的事件
     [seg addTarget:self action:@selector(changeSegment:) forControlEvents:UIControlEventValueChanged];
     
+    //让分段控件显示在导航条上
     self.navigationItem.titleView = seg;
+    
+    //记录分段控件
+    _segmentCtrl = seg;
+    //记录tableView
+    _tableView = tb;
 }
 
 //当分段控件被选中时触发的方法
 -(void)changeSegment:(UISegmentedControl *)seg{
     
-    NSLog(@"%zd",seg.selectedSegmentIndex);
+    //NSLog(@"%zd",seg.selectedSegmentIndex);
+    //刷新tableView
+    [_tableView reloadData]; //刷新tableView
 }
 
-/*
-#pragma mark - Navigation
 
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
-}
-*/
 
 @end
