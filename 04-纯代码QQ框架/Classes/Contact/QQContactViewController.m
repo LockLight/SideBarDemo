@@ -71,8 +71,18 @@ static NSString *rid = @"contact";
     
     //设置默认被选中的分段
     seg.selectedSegmentIndex = 0;
+
+    
+    //监听分段控件的事件
+    [seg addTarget:self action:@selector(changeSegment:) forControlEvents:UIControlEventValueChanged];
     
     self.navigationItem.titleView = seg;
+}
+
+//当分段控件被选中时触发的方法
+-(void)changeSegment:(UISegmentedControl *)seg{
+    
+    NSLog(@"%zd",seg.selectedSegmentIndex);
 }
 
 /*
