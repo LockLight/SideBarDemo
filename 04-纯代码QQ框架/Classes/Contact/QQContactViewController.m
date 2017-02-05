@@ -7,6 +7,7 @@
 //
 
 #import "QQContactViewController.h"
+#import "QQAddContactViewController.h"
 
 
 static NSString *rid = @"contact";
@@ -84,10 +85,29 @@ static NSString *rid = @"contact";
     //让分段控件显示在导航条上
     self.navigationItem.titleView = seg;
     
+    
+    //创建rightBarButtonItem
+    self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc] initWithImage:[UIImage imageNamed:@"header_icon_add"] style:UIBarButtonItemStyleDone target:self action:@selector(nextVC)] ;
+    
     //记录分段控件
     _segmentCtrl = seg;
     //记录tableView
     _tableView = tb;
+}
+
+//点击导航条右侧按钮触发
+-(void)nextVC{
+    
+    //push出添加联系人控制器
+    QQAddContactViewController *vc = [QQAddContactViewController new];
+    
+    //设置背景颜色
+    vc.view.backgroundColor = [UIColor whiteColor];
+    
+    //隐藏底部栏
+    vc.hidesBottomBarWhenPushed = YES;
+    
+    [self.navigationController pushViewController:vc animated:YES];
 }
 
 //当分段控件被选中时触发的方法

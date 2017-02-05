@@ -16,6 +16,7 @@
 		E136E4481E46D53F006E3CEB /* QQZoneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E136E4471E46D53F006E3CEB /* QQZoneViewController.m */; };
 		E136E44B1E46D548006E3CEB /* QQSettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E136E44A1E46D548006E3CEB /* QQSettingViewController.m */; };
 		E136E44F1E46D8CC006E3CEB /* QQBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E136E44E1E46D8CC006E3CEB /* QQBaseViewController.m */; };
+		E136E4521E47021D006E3CEB /* QQAddContactViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E136E4511E47021D006E3CEB /* QQAddContactViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +38,8 @@
 		E136E44A1E46D548006E3CEB /* QQSettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QQSettingViewController.m; sourceTree = "<group>"; };
 		E136E44D1E46D8CC006E3CEB /* QQBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QQBaseViewController.h; sourceTree = "<group>"; };
 		E136E44E1E46D8CC006E3CEB /* QQBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QQBaseViewController.m; sourceTree = "<group>"; };
+		E136E4501E47021D006E3CEB /* QQAddContactViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QQAddContactViewController.h; sourceTree = "<group>"; };
+		E136E4511E47021D006E3CEB /* QQAddContactViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QQAddContactViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 			children = (
 				E136E4431E46D52E006E3CEB /* QQContactViewController.h */,
 				E136E4441E46D52E006E3CEB /* QQContactViewController.m */,
+				E136E4501E47021D006E3CEB /* QQAddContactViewController.h */,
+				E136E4511E47021D006E3CEB /* QQAddContactViewController.m */,
 			);
 			path = Contact;
 			sourceTree = "<group>";
@@ -231,6 +236,7 @@
 				E136E4421E46D527006E3CEB /* QQMessageViewController.m in Sources */,
 				E136E44F1E46D8CC006E3CEB /* QQBaseViewController.m in Sources */,
 				E136E4481E46D53F006E3CEB /* QQZoneViewController.m in Sources */,
+				E136E4521E47021D006E3CEB /* QQAddContactViewController.m in Sources */,
 				E136E4221E46CE5E006E3CEB /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -371,6 +377,7 @@
 				E136E4361E46CE5E006E3CEB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

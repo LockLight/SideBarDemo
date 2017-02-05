@@ -59,6 +59,9 @@
     //包装navigationController
     UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:vc];
     
+    //给导航控制器加一个背景颜色，可以防止push的时候导航条有一部分变黑
+    nav.view.backgroundColor = [UIColor whiteColor];
+    
     return nav;
 }
 
