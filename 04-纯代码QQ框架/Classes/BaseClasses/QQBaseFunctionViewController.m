@@ -8,8 +8,8 @@
 
 #import "QQBaseFunctionViewController.h"
 #import "QQFunctionModel.h"
+#import "QQFunctionCell.h"
 
-static NSString *rid = @"new";
 
 @interface QQBaseFunctionViewController () <UITableViewDataSource>
 
@@ -92,12 +92,28 @@ static NSString *rid = @"new";
     QQFunctionModel *model = sectionArr[indexPath.row];
     
     
+    //根据detail来吧，如果模型里面detail的属性文字长度>0，代表有detail，有detail就需要用value1那个样式的cell
+    //如果没有就用默认的
+//    
+//    NSString *rid = nil;
+//    
+//    if (model.detail.length > 0) {
+//        
+//        rid = @"detail";
+//    }else{
+//        
+//        rid = @"normal";
+//    }
+    
+    NSString *rid = model.detail.length > 0 ? @"detail" : @"normal";
+    
     //获取cell
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:rid forIndexPath:indexPath];
     
     //给cell赋值
     cell.textLabel.text = model.name;
     cell.imageView.image = [UIImage imageNamed:model.icon];
+    cell.detailTextLabel.text = model.detail;
     
     //返回cell
     return cell;
@@ -111,8 +127,9 @@ static NSString *rid = @"new";
     //设置数据源对象
     tb.dataSource = self;
     
-    //注册cell
-    [tb registerClass:[UITableViewCell class] forCellReuseIdentifier:rid];
+    //注册cell，默认的样式就是default样式，这个样式不包含detailLabel
+    [tb registerClass:[UITableViewCell class] forCellReuseIdentifier:@"normal"];
+    [tb registerClass:[QQFunctionCell class] forCellReuseIdentifier:@"detail"];
     
     //tableView添加到根视图
     [self.view addSubview:tb];

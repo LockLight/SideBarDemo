@@ -22,6 +22,7 @@
 		E136E4591E470CCE006E3CEB /* QQZone.plist in Resources */ = {isa = PBXBuildFile; fileRef = E136E4581E470CCE006E3CEB /* QQZone.plist */; };
 		E136E45C1E470E46006E3CEB /* QQBaseFunctionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E136E45B1E470E46006E3CEB /* QQBaseFunctionViewController.m */; };
 		E136E45E1E471076006E3CEB /* QQSetting.plist in Resources */ = {isa = PBXBuildFile; fileRef = E136E45D1E471076006E3CEB /* QQSetting.plist */; };
+		E136E4611E471240006E3CEB /* QQFunctionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E136E4601E471240006E3CEB /* QQFunctionCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -52,6 +53,8 @@
 		E136E45A1E470E46006E3CEB /* QQBaseFunctionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QQBaseFunctionViewController.h; sourceTree = "<group>"; };
 		E136E45B1E470E46006E3CEB /* QQBaseFunctionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QQBaseFunctionViewController.m; sourceTree = "<group>"; };
 		E136E45D1E471076006E3CEB /* QQSetting.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = QQSetting.plist; sourceTree = "<group>"; };
+		E136E45F1E471240006E3CEB /* QQFunctionCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QQFunctionCell.h; sourceTree = "<group>"; };
+		E136E4601E471240006E3CEB /* QQFunctionCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QQFunctionCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -174,6 +177,8 @@
 				E136E44E1E46D8CC006E3CEB /* QQBaseViewController.m */,
 				E136E45A1E470E46006E3CEB /* QQBaseFunctionViewController.h */,
 				E136E45B1E470E46006E3CEB /* QQBaseFunctionViewController.m */,
+				E136E45F1E471240006E3CEB /* QQFunctionCell.h */,
+				E136E4601E471240006E3CEB /* QQFunctionCell.m */,
 			);
 			path = BaseClasses;
 			sourceTree = "<group>";
@@ -262,6 +267,7 @@
 				E136E45C1E470E46006E3CEB /* QQBaseFunctionViewController.m in Sources */,
 				E136E4521E47021D006E3CEB /* QQAddContactViewController.m in Sources */,
 				E136E4221E46CE5E006E3CEB /* main.m in Sources */,
+				E136E4611E471240006E3CEB /* QQFunctionCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
