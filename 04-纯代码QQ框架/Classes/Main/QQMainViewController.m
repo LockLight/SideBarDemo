@@ -7,6 +7,7 @@
 //
 
 #import "QQMainViewController.h"
+#import "QQMessageViewController.h"
 
 @interface QQMainViewController ()
 
@@ -16,8 +17,46 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    
+    //添加子控制器
+    [self addControllers];
 }
+
+-(void)addControllers{
+    
+
+    UIViewController *vc1 = [self controllerWithClassName:@"QQMessageViewController" andTitle:@"消息" andImgName:@"tab_recent_nor"];
+    
+    
+    self.viewControllers = @[ vc1 ];
+}
+
+
+//封装思想：相同代码封装成一个方法
+//不同的值，通过参数传递
+-(UIViewController *)controllerWithClassName:(NSString *)clsName andTitle:(NSString *)title andImgName:(NSString *)imgName{
+    
+    Class cls = NSClassFromString(clsName);
+    
+    //下断言：
+    //可以设定一个条件，如果不满足这个条件，那么就抛出异常，并且异常的原因输出的就是你写的话
+    NSAssert( [cls isSubclassOfClass:[UIViewController class]]  , @"传入的类名不是合法的控制器类名");
+    
+    //父类指针可以指向任意的子类对象
+    UIViewController *vc = [cls new];
+    
+    vc.title = title;
+    
+    //设置tabBar的标签图像
+    vc.tabBarItem.image = [UIImage imageNamed:imgName];
+    
+    //包装navigationController
+    UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:vc];
+    
+    return nav;
+}
+
+
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

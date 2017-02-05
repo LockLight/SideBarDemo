@@ -11,6 +11,10 @@
 		E136E4251E46CE5E006E3CEB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E136E4241E46CE5E006E3CEB /* AppDelegate.m */; };
 		E136E42D1E46CE5E006E3CEB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E136E42C1E46CE5E006E3CEB /* Assets.xcassets */; };
 		E136E43F1E46CF97006E3CEB /* QQMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E136E43E1E46CF97006E3CEB /* QQMainViewController.m */; };
+		E136E4421E46D527006E3CEB /* QQMessageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E136E4411E46D527006E3CEB /* QQMessageViewController.m */; };
+		E136E4451E46D52E006E3CEB /* QQContactViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E136E4441E46D52E006E3CEB /* QQContactViewController.m */; };
+		E136E4481E46D53F006E3CEB /* QQZoneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E136E4471E46D53F006E3CEB /* QQZoneViewController.m */; };
+		E136E44B1E46D548006E3CEB /* QQSettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E136E44A1E46D548006E3CEB /* QQSettingViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +26,14 @@
 		E136E4311E46CE5E006E3CEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E136E43D1E46CF97006E3CEB /* QQMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QQMainViewController.h; sourceTree = "<group>"; };
 		E136E43E1E46CF97006E3CEB /* QQMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QQMainViewController.m; sourceTree = "<group>"; };
+		E136E4401E46D527006E3CEB /* QQMessageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QQMessageViewController.h; sourceTree = "<group>"; };
+		E136E4411E46D527006E3CEB /* QQMessageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QQMessageViewController.m; sourceTree = "<group>"; };
+		E136E4431E46D52E006E3CEB /* QQContactViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QQContactViewController.h; sourceTree = "<group>"; };
+		E136E4441E46D52E006E3CEB /* QQContactViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QQContactViewController.m; sourceTree = "<group>"; };
+		E136E4461E46D53F006E3CEB /* QQZoneViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QQZoneViewController.h; sourceTree = "<group>"; };
+		E136E4471E46D53F006E3CEB /* QQZoneViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QQZoneViewController.m; sourceTree = "<group>"; };
+		E136E4491E46D548006E3CEB /* QQSettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QQSettingViewController.h; sourceTree = "<group>"; };
+		E136E44A1E46D548006E3CEB /* QQSettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QQSettingViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +99,8 @@
 		E136E4381E46CEE1006E3CEB /* Contact */ = {
 			isa = PBXGroup;
 			children = (
+				E136E4431E46D52E006E3CEB /* QQContactViewController.h */,
+				E136E4441E46D52E006E3CEB /* QQContactViewController.m */,
 			);
 			path = Contact;
 			sourceTree = "<group>";
@@ -103,6 +117,8 @@
 		E136E43A1E46CEE1006E3CEB /* Message */ = {
 			isa = PBXGroup;
 			children = (
+				E136E4401E46D527006E3CEB /* QQMessageViewController.h */,
+				E136E4411E46D527006E3CEB /* QQMessageViewController.m */,
 			);
 			path = Message;
 			sourceTree = "<group>";
@@ -110,6 +126,8 @@
 		E136E43B1E46CEE1006E3CEB /* Qzone */ = {
 			isa = PBXGroup;
 			children = (
+				E136E4461E46D53F006E3CEB /* QQZoneViewController.h */,
+				E136E4471E46D53F006E3CEB /* QQZoneViewController.m */,
 			);
 			path = Qzone;
 			sourceTree = "<group>";
@@ -117,6 +135,8 @@
 		E136E43C1E46CEE1006E3CEB /* Setting */ = {
 			isa = PBXGroup;
 			children = (
+				E136E4491E46D548006E3CEB /* QQSettingViewController.h */,
+				E136E44A1E46D548006E3CEB /* QQSettingViewController.m */,
 			);
 			path = Setting;
 			sourceTree = "<group>";
@@ -191,8 +211,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E136E44B1E46D548006E3CEB /* QQSettingViewController.m in Sources */,
 				E136E4251E46CE5E006E3CEB /* AppDelegate.m in Sources */,
 				E136E43F1E46CF97006E3CEB /* QQMainViewController.m in Sources */,
+				E136E4451E46D52E006E3CEB /* QQContactViewController.m in Sources */,
+				E136E4421E46D527006E3CEB /* QQMessageViewController.m in Sources */,
+				E136E4481E46D53F006E3CEB /* QQZoneViewController.m in Sources */,
 				E136E4221E46CE5E006E3CEB /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
