@@ -10,6 +10,7 @@
 		E136E4221E46CE5E006E3CEB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E136E4211E46CE5E006E3CEB /* main.m */; };
 		E136E4251E46CE5E006E3CEB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E136E4241E46CE5E006E3CEB /* AppDelegate.m */; };
 		E136E42D1E46CE5E006E3CEB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E136E42C1E46CE5E006E3CEB /* Assets.xcassets */; };
+		E136E43F1E46CF97006E3CEB /* QQMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E136E43E1E46CF97006E3CEB /* QQMainViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,8 @@
 		E136E4241E46CE5E006E3CEB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		E136E42C1E46CE5E006E3CEB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E136E4311E46CE5E006E3CEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E136E43D1E46CF97006E3CEB /* QQMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QQMainViewController.h; sourceTree = "<group>"; };
+		E136E43E1E46CF97006E3CEB /* QQMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QQMainViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +94,8 @@
 		E136E4391E46CEE1006E3CEB /* Main */ = {
 			isa = PBXGroup;
 			children = (
+				E136E43D1E46CF97006E3CEB /* QQMainViewController.h */,
+				E136E43E1E46CF97006E3CEB /* QQMainViewController.m */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -142,6 +147,7 @@
 		E136E4151E46CE5E006E3CEB /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = QQ;
 				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = itheima;
 				TargetAttributes = {
@@ -186,6 +192,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E136E4251E46CE5E006E3CEB /* AppDelegate.m in Sources */,
+				E136E43F1E46CF97006E3CEB /* QQMainViewController.m in Sources */,
 				E136E4221E46CE5E006E3CEB /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
