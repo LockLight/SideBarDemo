@@ -54,8 +54,6 @@
 				E136E4371E46CEE1006E3CEB /* Classes */,
 				E136E4231E46CE5E006E3CEB /* AppDelegate.h */,
 				E136E4241E46CE5E006E3CEB /* AppDelegate.m */,
-				E136E42C1E46CE5E006E3CEB /* Assets.xcassets */,
-				E136E4311E46CE5E006E3CEB /* Info.plist */,
 				E136E4201E46CE5E006E3CEB /* Supporting Files */,
 			);
 			path = "04-纯代码QQ框架";
@@ -64,6 +62,8 @@
 		E136E4201E46CE5E006E3CEB /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				E136E42C1E46CE5E006E3CEB /* Assets.xcassets */,
+				E136E4311E46CE5E006E3CEB /* Info.plist */,
 				E136E4211E46CE5E006E3CEB /* main.m */,
 			);
 			name = "Supporting Files";
@@ -285,6 +285,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = "04-纯代码QQ框架/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -297,6 +298,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = "04-纯代码QQ框架/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
