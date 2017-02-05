@@ -18,6 +18,7 @@
 		E136E44F1E46D8CC006E3CEB /* QQBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E136E44E1E46D8CC006E3CEB /* QQBaseViewController.m */; };
 		E136E4521E47021D006E3CEB /* QQAddContactViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E136E4511E47021D006E3CEB /* QQAddContactViewController.m */; };
 		E136E4541E47059C006E3CEB /* QQAddContact.plist in Resources */ = {isa = PBXBuildFile; fileRef = E136E4531E47059C006E3CEB /* QQAddContact.plist */; };
+		E136E4571E470742006E3CEB /* QQFunctionModel.m in Sources */ = {isa = PBXBuildFile; fileRef = E136E4561E470742006E3CEB /* QQFunctionModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +43,8 @@
 		E136E4501E47021D006E3CEB /* QQAddContactViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QQAddContactViewController.h; sourceTree = "<group>"; };
 		E136E4511E47021D006E3CEB /* QQAddContactViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QQAddContactViewController.m; sourceTree = "<group>"; };
 		E136E4531E47059C006E3CEB /* QQAddContact.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = QQAddContact.plist; sourceTree = "<group>"; };
+		E136E4551E470742006E3CEB /* QQFunctionModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QQFunctionModel.h; sourceTree = "<group>"; };
+		E136E4561E470742006E3CEB /* QQFunctionModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QQFunctionModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +116,8 @@
 				E136E4501E47021D006E3CEB /* QQAddContactViewController.h */,
 				E136E4511E47021D006E3CEB /* QQAddContactViewController.m */,
 				E136E4531E47059C006E3CEB /* QQAddContact.plist */,
+				E136E4551E470742006E3CEB /* QQFunctionModel.h */,
+				E136E4561E470742006E3CEB /* QQFunctionModel.m */,
 			);
 			path = Contact;
 			sourceTree = "<group>";
@@ -238,6 +243,7 @@
 				E136E43F1E46CF97006E3CEB /* QQMainViewController.m in Sources */,
 				E136E4451E46D52E006E3CEB /* QQContactViewController.m in Sources */,
 				E136E4421E46D527006E3CEB /* QQMessageViewController.m in Sources */,
+				E136E4571E470742006E3CEB /* QQFunctionModel.m in Sources */,
 				E136E44F1E46D8CC006E3CEB /* QQBaseViewController.m in Sources */,
 				E136E4481E46D53F006E3CEB /* QQZoneViewController.m in Sources */,
 				E136E4521E47021D006E3CEB /* QQAddContactViewController.m in Sources */,
