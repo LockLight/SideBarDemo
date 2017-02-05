@@ -24,11 +24,17 @@
 
 -(void)addControllers{
     
-
+    
     UIViewController *vc1 = [self controllerWithClassName:@"QQMessageViewController" andTitle:@"消息" andImgName:@"tab_recent_nor"];
     
+    UIViewController *vc2 = [self controllerWithClassName:@"QQContactViewController" andTitle:@"联系人" andImgName:@"tab_buddy_nor"];
     
-    self.viewControllers = @[ vc1 ];
+    UIViewController *vc3 = [self controllerWithClassName:@"QQZoneViewController" andTitle:@"动态" andImgName:@"tab_qworld_nor"];
+    
+    UIViewController *vc4 = [self controllerWithClassName:@"QQSettingViewController" andTitle:@"设置" andImgName:@"tab_me_nor"];
+    
+    
+    self.viewControllers = @[ vc1,vc2,vc3,vc4 ];
 }
 
 
