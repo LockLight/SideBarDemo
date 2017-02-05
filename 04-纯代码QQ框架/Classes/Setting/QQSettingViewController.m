@@ -7,6 +7,7 @@
 //
 
 #import "QQSettingViewController.h"
+#import "QQAboutViewController.h"
 
 @interface QQSettingViewController ()
 
@@ -29,7 +30,17 @@
 //当选中某一行时会来触发
 -(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
     
-    NSLog(@"%@",indexPath);
+    //取消这一行的选中状态
+    [tableView deselectRowAtIndexPath:indexPath animated:YES];
+    
+    QQAboutViewController *vc = [QQAboutViewController new];
+    
+    vc.view.backgroundColor = [UIColor whiteColor];
+    
+    //隐藏底部栏
+    vc.hidesBottomBarWhenPushed = YES;
+    
+    [self.navigationController pushViewController:vc animated:YES];
 }
 
 @end
