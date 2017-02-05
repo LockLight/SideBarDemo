@@ -17,6 +17,7 @@
 		E136E44B1E46D548006E3CEB /* QQSettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E136E44A1E46D548006E3CEB /* QQSettingViewController.m */; };
 		E136E44F1E46D8CC006E3CEB /* QQBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E136E44E1E46D8CC006E3CEB /* QQBaseViewController.m */; };
 		E136E4521E47021D006E3CEB /* QQAddContactViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E136E4511E47021D006E3CEB /* QQAddContactViewController.m */; };
+		E136E4541E47059C006E3CEB /* QQAddContact.plist in Resources */ = {isa = PBXBuildFile; fileRef = E136E4531E47059C006E3CEB /* QQAddContact.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +41,7 @@
 		E136E44E1E46D8CC006E3CEB /* QQBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QQBaseViewController.m; sourceTree = "<group>"; };
 		E136E4501E47021D006E3CEB /* QQAddContactViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QQAddContactViewController.h; sourceTree = "<group>"; };
 		E136E4511E47021D006E3CEB /* QQAddContactViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QQAddContactViewController.m; sourceTree = "<group>"; };
+		E136E4531E47059C006E3CEB /* QQAddContact.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = QQAddContact.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +112,7 @@
 				E136E4441E46D52E006E3CEB /* QQContactViewController.m */,
 				E136E4501E47021D006E3CEB /* QQAddContactViewController.h */,
 				E136E4511E47021D006E3CEB /* QQAddContactViewController.m */,
+				E136E4531E47059C006E3CEB /* QQAddContact.plist */,
 			);
 			path = Contact;
 			sourceTree = "<group>";
@@ -219,6 +222,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E136E42D1E46CE5E006E3CEB /* Assets.xcassets in Resources */,
+				E136E4541E47059C006E3CEB /* QQAddContact.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
