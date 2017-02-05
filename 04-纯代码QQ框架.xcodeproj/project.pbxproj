@@ -25,6 +25,17 @@
 		E136E4611E471240006E3CEB /* QQFunctionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E136E4601E471240006E3CEB /* QQFunctionCell.m */; };
 		E136E4641E471513006E3CEB /* QQAboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E136E4631E471513006E3CEB /* QQAboutViewController.m */; };
 		E136E4661E471539006E3CEB /* functionAbout.plist in Resources */ = {isa = PBXBuildFile; fileRef = E136E4651E471539006E3CEB /* functionAbout.plist */; };
+		E136E4851E4717A7006E3CEB /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E136E46B1E4717A7006E3CEB /* Info.plist */; };
+		E136E4861E4717A7006E3CEB /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = E136E46D1E4717A7006E3CEB /* MASCompositeConstraint.m */; };
+		E136E4871E4717A7006E3CEB /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = E136E4701E4717A7006E3CEB /* MASConstraint.m */; };
+		E136E4881E4717A7006E3CEB /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = E136E4721E4717A7006E3CEB /* MASConstraintMaker.m */; };
+		E136E4891E4717A7006E3CEB /* MASLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = E136E4741E4717A7006E3CEB /* MASLayoutConstraint.m */; };
+		E136E48A1E4717A7006E3CEB /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = E136E4781E4717A7006E3CEB /* MASViewAttribute.m */; };
+		E136E48B1E4717A7006E3CEB /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = E136E47A1E4717A7006E3CEB /* MASViewConstraint.m */; };
+		E136E48C1E4717A7006E3CEB /* NSArray+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = E136E47C1E4717A7006E3CEB /* NSArray+MASAdditions.m */; };
+		E136E48D1E4717A7006E3CEB /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = E136E47F1E4717A7006E3CEB /* NSLayoutConstraint+MASDebugAdditions.m */; };
+		E136E48E1E4717A7006E3CEB /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = E136E4811E4717A7006E3CEB /* View+MASAdditions.m */; };
+		E136E48F1E4717A7006E3CEB /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = E136E4841E4717A7006E3CEB /* ViewController+MASAdditions.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -48,18 +59,44 @@
 		E136E44E1E46D8CC006E3CEB /* QQBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QQBaseViewController.m; sourceTree = "<group>"; };
 		E136E4501E47021D006E3CEB /* QQAddContactViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QQAddContactViewController.h; sourceTree = "<group>"; };
 		E136E4511E47021D006E3CEB /* QQAddContactViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QQAddContactViewController.m; sourceTree = "<group>"; };
-		E136E4531E47059C006E3CEB /* QQAddContact.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = QQAddContact.plist; sourceTree = "<group>"; };
-		E136E4551E470742006E3CEB /* QQFunctionModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QQFunctionModel.h; sourceTree = "<group>"; };
-		E136E4561E470742006E3CEB /* QQFunctionModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QQFunctionModel.m; sourceTree = "<group>"; };
-		E136E4581E470CCE006E3CEB /* QQZone.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = QQZone.plist; sourceTree = "<group>"; };
+		E136E4531E47059C006E3CEB /* QQAddContact.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = QQAddContact.plist; path = ../Contact/QQAddContact.plist; sourceTree = "<group>"; };
+		E136E4551E470742006E3CEB /* QQFunctionModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = QQFunctionModel.h; path = ../Contact/QQFunctionModel.h; sourceTree = "<group>"; };
+		E136E4561E470742006E3CEB /* QQFunctionModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = QQFunctionModel.m; path = ../Contact/QQFunctionModel.m; sourceTree = "<group>"; };
+		E136E4581E470CCE006E3CEB /* QQZone.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = QQZone.plist; path = ../Qzone/QQZone.plist; sourceTree = "<group>"; };
 		E136E45A1E470E46006E3CEB /* QQBaseFunctionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QQBaseFunctionViewController.h; sourceTree = "<group>"; };
 		E136E45B1E470E46006E3CEB /* QQBaseFunctionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QQBaseFunctionViewController.m; sourceTree = "<group>"; };
-		E136E45D1E471076006E3CEB /* QQSetting.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = QQSetting.plist; sourceTree = "<group>"; };
+		E136E45D1E471076006E3CEB /* QQSetting.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = QQSetting.plist; path = ../Setting/QQSetting.plist; sourceTree = "<group>"; };
 		E136E45F1E471240006E3CEB /* QQFunctionCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QQFunctionCell.h; sourceTree = "<group>"; };
 		E136E4601E471240006E3CEB /* QQFunctionCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QQFunctionCell.m; sourceTree = "<group>"; };
 		E136E4621E471513006E3CEB /* QQAboutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QQAboutViewController.h; sourceTree = "<group>"; };
 		E136E4631E471513006E3CEB /* QQAboutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QQAboutViewController.m; sourceTree = "<group>"; };
-		E136E4651E471539006E3CEB /* functionAbout.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = functionAbout.plist; sourceTree = "<group>"; };
+		E136E4651E471539006E3CEB /* functionAbout.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = functionAbout.plist; path = ../Setting/functionAbout.plist; sourceTree = "<group>"; };
+		E136E46B1E4717A7006E3CEB /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E136E46C1E4717A7006E3CEB /* MASCompositeConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASCompositeConstraint.h; sourceTree = "<group>"; };
+		E136E46D1E4717A7006E3CEB /* MASCompositeConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASCompositeConstraint.m; sourceTree = "<group>"; };
+		E136E46E1E4717A7006E3CEB /* MASConstraint+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MASConstraint+Private.h"; sourceTree = "<group>"; };
+		E136E46F1E4717A7006E3CEB /* MASConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASConstraint.h; sourceTree = "<group>"; };
+		E136E4701E4717A7006E3CEB /* MASConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASConstraint.m; sourceTree = "<group>"; };
+		E136E4711E4717A7006E3CEB /* MASConstraintMaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASConstraintMaker.h; sourceTree = "<group>"; };
+		E136E4721E4717A7006E3CEB /* MASConstraintMaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASConstraintMaker.m; sourceTree = "<group>"; };
+		E136E4731E4717A7006E3CEB /* MASLayoutConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASLayoutConstraint.h; sourceTree = "<group>"; };
+		E136E4741E4717A7006E3CEB /* MASLayoutConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASLayoutConstraint.m; sourceTree = "<group>"; };
+		E136E4751E4717A7006E3CEB /* Masonry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Masonry.h; sourceTree = "<group>"; };
+		E136E4761E4717A7006E3CEB /* MASUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASUtilities.h; sourceTree = "<group>"; };
+		E136E4771E4717A7006E3CEB /* MASViewAttribute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASViewAttribute.h; sourceTree = "<group>"; };
+		E136E4781E4717A7006E3CEB /* MASViewAttribute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewAttribute.m; sourceTree = "<group>"; };
+		E136E4791E4717A7006E3CEB /* MASViewConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASViewConstraint.h; sourceTree = "<group>"; };
+		E136E47A1E4717A7006E3CEB /* MASViewConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewConstraint.m; sourceTree = "<group>"; };
+		E136E47B1E4717A7006E3CEB /* NSArray+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASAdditions.h"; sourceTree = "<group>"; };
+		E136E47C1E4717A7006E3CEB /* NSArray+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+MASAdditions.m"; sourceTree = "<group>"; };
+		E136E47D1E4717A7006E3CEB /* NSArray+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		E136E47E1E4717A7006E3CEB /* NSLayoutConstraint+MASDebugAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSLayoutConstraint+MASDebugAdditions.h"; sourceTree = "<group>"; };
+		E136E47F1E4717A7006E3CEB /* NSLayoutConstraint+MASDebugAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSLayoutConstraint+MASDebugAdditions.m"; sourceTree = "<group>"; };
+		E136E4801E4717A7006E3CEB /* View+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASAdditions.h"; sourceTree = "<group>"; };
+		E136E4811E4717A7006E3CEB /* View+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "View+MASAdditions.m"; sourceTree = "<group>"; };
+		E136E4821E4717A7006E3CEB /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		E136E4831E4717A7006E3CEB /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ViewController+MASAdditions.h"; sourceTree = "<group>"; };
+		E136E4841E4717A7006E3CEB /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ViewController+MASAdditions.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +150,7 @@
 		E136E4371E46CEE1006E3CEB /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				E136E4691E4717A7006E3CEB /* Lib */,
 				E136E44C1E46D8BF006E3CEB /* BaseClasses */,
 				E136E4391E46CEE1006E3CEB /* Main */,
 				E136E43A1E46CEE1006E3CEB /* Message */,
@@ -130,9 +168,6 @@
 				E136E4441E46D52E006E3CEB /* QQContactViewController.m */,
 				E136E4501E47021D006E3CEB /* QQAddContactViewController.h */,
 				E136E4511E47021D006E3CEB /* QQAddContactViewController.m */,
-				E136E4531E47059C006E3CEB /* QQAddContact.plist */,
-				E136E4551E470742006E3CEB /* QQFunctionModel.h */,
-				E136E4561E470742006E3CEB /* QQFunctionModel.m */,
 			);
 			path = Contact;
 			sourceTree = "<group>";
@@ -160,7 +195,6 @@
 			children = (
 				E136E4461E46D53F006E3CEB /* QQZoneViewController.h */,
 				E136E4471E46D53F006E3CEB /* QQZoneViewController.m */,
-				E136E4581E470CCE006E3CEB /* QQZone.plist */,
 			);
 			path = Qzone;
 			sourceTree = "<group>";
@@ -170,8 +204,6 @@
 			children = (
 				E136E4491E46D548006E3CEB /* QQSettingViewController.h */,
 				E136E44A1E46D548006E3CEB /* QQSettingViewController.m */,
-				E136E45D1E471076006E3CEB /* QQSetting.plist */,
-				E136E4651E471539006E3CEB /* functionAbout.plist */,
 				E136E4621E471513006E3CEB /* QQAboutViewController.h */,
 				E136E4631E471513006E3CEB /* QQAboutViewController.m */,
 			);
@@ -181,6 +213,7 @@
 		E136E44C1E46D8BF006E3CEB /* BaseClasses */ = {
 			isa = PBXGroup;
 			children = (
+				E136E4671E47165B006E3CEB /* model */,
 				E136E44D1E46D8CC006E3CEB /* QQBaseViewController.h */,
 				E136E44E1E46D8CC006E3CEB /* QQBaseViewController.m */,
 				E136E45A1E470E46006E3CEB /* QQBaseFunctionViewController.h */,
@@ -189,6 +222,60 @@
 				E136E4601E471240006E3CEB /* QQFunctionCell.m */,
 			);
 			path = BaseClasses;
+			sourceTree = "<group>";
+		};
+		E136E4671E47165B006E3CEB /* model */ = {
+			isa = PBXGroup;
+			children = (
+				E136E4551E470742006E3CEB /* QQFunctionModel.h */,
+				E136E4561E470742006E3CEB /* QQFunctionModel.m */,
+				E136E4531E47059C006E3CEB /* QQAddContact.plist */,
+				E136E45D1E471076006E3CEB /* QQSetting.plist */,
+				E136E4581E470CCE006E3CEB /* QQZone.plist */,
+				E136E4651E471539006E3CEB /* functionAbout.plist */,
+			);
+			name = model;
+			sourceTree = "<group>";
+		};
+		E136E4691E4717A7006E3CEB /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+				E136E46A1E4717A7006E3CEB /* Masonry */,
+			);
+			path = Lib;
+			sourceTree = "<group>";
+		};
+		E136E46A1E4717A7006E3CEB /* Masonry */ = {
+			isa = PBXGroup;
+			children = (
+				E136E46B1E4717A7006E3CEB /* Info.plist */,
+				E136E46C1E4717A7006E3CEB /* MASCompositeConstraint.h */,
+				E136E46D1E4717A7006E3CEB /* MASCompositeConstraint.m */,
+				E136E46E1E4717A7006E3CEB /* MASConstraint+Private.h */,
+				E136E46F1E4717A7006E3CEB /* MASConstraint.h */,
+				E136E4701E4717A7006E3CEB /* MASConstraint.m */,
+				E136E4711E4717A7006E3CEB /* MASConstraintMaker.h */,
+				E136E4721E4717A7006E3CEB /* MASConstraintMaker.m */,
+				E136E4731E4717A7006E3CEB /* MASLayoutConstraint.h */,
+				E136E4741E4717A7006E3CEB /* MASLayoutConstraint.m */,
+				E136E4751E4717A7006E3CEB /* Masonry.h */,
+				E136E4761E4717A7006E3CEB /* MASUtilities.h */,
+				E136E4771E4717A7006E3CEB /* MASViewAttribute.h */,
+				E136E4781E4717A7006E3CEB /* MASViewAttribute.m */,
+				E136E4791E4717A7006E3CEB /* MASViewConstraint.h */,
+				E136E47A1E4717A7006E3CEB /* MASViewConstraint.m */,
+				E136E47B1E4717A7006E3CEB /* NSArray+MASAdditions.h */,
+				E136E47C1E4717A7006E3CEB /* NSArray+MASAdditions.m */,
+				E136E47D1E4717A7006E3CEB /* NSArray+MASShorthandAdditions.h */,
+				E136E47E1E4717A7006E3CEB /* NSLayoutConstraint+MASDebugAdditions.h */,
+				E136E47F1E4717A7006E3CEB /* NSLayoutConstraint+MASDebugAdditions.m */,
+				E136E4801E4717A7006E3CEB /* View+MASAdditions.h */,
+				E136E4811E4717A7006E3CEB /* View+MASAdditions.m */,
+				E136E4821E4717A7006E3CEB /* View+MASShorthandAdditions.h */,
+				E136E4831E4717A7006E3CEB /* ViewController+MASAdditions.h */,
+				E136E4841E4717A7006E3CEB /* ViewController+MASAdditions.m */,
+			);
+			path = Masonry;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -252,6 +339,7 @@
 			files = (
 				E136E42D1E46CE5E006E3CEB /* Assets.xcassets in Resources */,
 				E136E45E1E471076006E3CEB /* QQSetting.plist in Resources */,
+				E136E4851E4717A7006E3CEB /* Info.plist in Resources */,
 				E136E4541E47059C006E3CEB /* QQAddContact.plist in Resources */,
 				E136E4661E471539006E3CEB /* functionAbout.plist in Resources */,
 				E136E4591E470CCE006E3CEB /* QQZone.plist in Resources */,
@@ -267,17 +355,27 @@
 			files = (
 				E136E44B1E46D548006E3CEB /* QQSettingViewController.m in Sources */,
 				E136E4251E46CE5E006E3CEB /* AppDelegate.m in Sources */,
+				E136E48D1E4717A7006E3CEB /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
 				E136E43F1E46CF97006E3CEB /* QQMainViewController.m in Sources */,
+				E136E48B1E4717A7006E3CEB /* MASViewConstraint.m in Sources */,
 				E136E4451E46D52E006E3CEB /* QQContactViewController.m in Sources */,
+				E136E48E1E4717A7006E3CEB /* View+MASAdditions.m in Sources */,
 				E136E4421E46D527006E3CEB /* QQMessageViewController.m in Sources */,
+				E136E48A1E4717A7006E3CEB /* MASViewAttribute.m in Sources */,
+				E136E4881E4717A7006E3CEB /* MASConstraintMaker.m in Sources */,
 				E136E4571E470742006E3CEB /* QQFunctionModel.m in Sources */,
 				E136E44F1E46D8CC006E3CEB /* QQBaseViewController.m in Sources */,
 				E136E4481E46D53F006E3CEB /* QQZoneViewController.m in Sources */,
+				E136E48F1E4717A7006E3CEB /* ViewController+MASAdditions.m in Sources */,
 				E136E45C1E470E46006E3CEB /* QQBaseFunctionViewController.m in Sources */,
+				E136E48C1E4717A7006E3CEB /* NSArray+MASAdditions.m in Sources */,
 				E136E4521E47021D006E3CEB /* QQAddContactViewController.m in Sources */,
+				E136E4891E4717A7006E3CEB /* MASLayoutConstraint.m in Sources */,
+				E136E4861E4717A7006E3CEB /* MASCompositeConstraint.m in Sources */,
 				E136E4641E471513006E3CEB /* QQAboutViewController.m in Sources */,
 				E136E4221E46CE5E006E3CEB /* main.m in Sources */,
 				E136E4611E471240006E3CEB /* QQFunctionCell.m in Sources */,
+				E136E4871E4717A7006E3CEB /* MASConstraint.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
