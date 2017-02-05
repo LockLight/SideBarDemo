@@ -1,0 +1,314 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E136E4221E46CE5E006E3CEB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E136E4211E46CE5E006E3CEB /* main.m */; };
+		E136E4251E46CE5E006E3CEB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E136E4241E46CE5E006E3CEB /* AppDelegate.m */; };
+		E136E4281E46CE5E006E3CEB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E136E4271E46CE5E006E3CEB /* ViewController.m */; };
+		E136E42B1E46CE5E006E3CEB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E136E4291E46CE5E006E3CEB /* Main.storyboard */; };
+		E136E42D1E46CE5E006E3CEB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E136E42C1E46CE5E006E3CEB /* Assets.xcassets */; };
+		E136E4301E46CE5E006E3CEB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E136E42E1E46CE5E006E3CEB /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E136E41D1E46CE5E006E3CEB /* 04-纯代码QQ框架.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "04-纯代码QQ框架.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E136E4211E46CE5E006E3CEB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E136E4231E46CE5E006E3CEB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E136E4241E46CE5E006E3CEB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E136E4261E46CE5E006E3CEB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E136E4271E46CE5E006E3CEB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E136E42A1E46CE5E006E3CEB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E136E42C1E46CE5E006E3CEB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E136E42F1E46CE5E006E3CEB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E136E4311E46CE5E006E3CEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E136E41A1E46CE5E006E3CEB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E136E4141E46CE5E006E3CEB = {
+			isa = PBXGroup;
+			children = (
+				E136E41F1E46CE5E006E3CEB /* 04-纯代码QQ框架 */,
+				E136E41E1E46CE5E006E3CEB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E136E41E1E46CE5E006E3CEB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E136E41D1E46CE5E006E3CEB /* 04-纯代码QQ框架.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E136E41F1E46CE5E006E3CEB /* 04-纯代码QQ框架 */ = {
+			isa = PBXGroup;
+			children = (
+				E136E4231E46CE5E006E3CEB /* AppDelegate.h */,
+				E136E4241E46CE5E006E3CEB /* AppDelegate.m */,
+				E136E4261E46CE5E006E3CEB /* ViewController.h */,
+				E136E4271E46CE5E006E3CEB /* ViewController.m */,
+				E136E4291E46CE5E006E3CEB /* Main.storyboard */,
+				E136E42C1E46CE5E006E3CEB /* Assets.xcassets */,
+				E136E42E1E46CE5E006E3CEB /* LaunchScreen.storyboard */,
+				E136E4311E46CE5E006E3CEB /* Info.plist */,
+				E136E4201E46CE5E006E3CEB /* Supporting Files */,
+			);
+			path = "04-纯代码QQ框架";
+			sourceTree = "<group>";
+		};
+		E136E4201E46CE5E006E3CEB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E136E4211E46CE5E006E3CEB /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E136E41C1E46CE5E006E3CEB /* 04-纯代码QQ框架 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E136E4341E46CE5E006E3CEB /* Build configuration list for PBXNativeTarget "04-纯代码QQ框架" */;
+			buildPhases = (
+				E136E4191E46CE5E006E3CEB /* Sources */,
+				E136E41A1E46CE5E006E3CEB /* Frameworks */,
+				E136E41B1E46CE5E006E3CEB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "04-纯代码QQ框架";
+			productName = "04-纯代码QQ框架";
+			productReference = E136E41D1E46CE5E006E3CEB /* 04-纯代码QQ框架.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E136E4151E46CE5E006E3CEB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = itheima;
+				TargetAttributes = {
+					E136E41C1E46CE5E006E3CEB = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = E136E4181E46CE5E006E3CEB /* Build configuration list for PBXProject "04-纯代码QQ框架" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E136E4141E46CE5E006E3CEB;
+			productRefGroup = E136E41E1E46CE5E006E3CEB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E136E41C1E46CE5E006E3CEB /* 04-纯代码QQ框架 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E136E41B1E46CE5E006E3CEB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E136E4301E46CE5E006E3CEB /* LaunchScreen.storyboard in Resources */,
+				E136E42D1E46CE5E006E3CEB /* Assets.xcassets in Resources */,
+				E136E42B1E46CE5E006E3CEB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E136E4191E46CE5E006E3CEB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E136E4281E46CE5E006E3CEB /* ViewController.m in Sources */,
+				E136E4251E46CE5E006E3CEB /* AppDelegate.m in Sources */,
+				E136E4221E46CE5E006E3CEB /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E136E4291E46CE5E006E3CEB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E136E42A1E46CE5E006E3CEB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E136E42E1E46CE5E006E3CEB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E136E42F1E46CE5E006E3CEB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E136E4321E46CE5E006E3CEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E136E4331E46CE5E006E3CEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E136E4351E46CE5E006E3CEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "04-纯代码QQ框架/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.itheimt.-4----QQ--";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E136E4361E46CE5E006E3CEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "04-纯代码QQ框架/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.itheimt.-4----QQ--";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E136E4181E46CE5E006E3CEB /* Build configuration list for PBXProject "04-纯代码QQ框架" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E136E4321E46CE5E006E3CEB /* Debug */,
+				E136E4331E46CE5E006E3CEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E136E4341E46CE5E006E3CEB /* Build configuration list for PBXNativeTarget "04-纯代码QQ框架" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E136E4351E46CE5E006E3CEB /* Debug */,
+				E136E4361E46CE5E006E3CEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E136E4151E46CE5E006E3CEB /* Project object */;
+}
