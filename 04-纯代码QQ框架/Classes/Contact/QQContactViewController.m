@@ -59,6 +59,20 @@ static NSString *rid = @"contact";
     
     //把tableView添加到根视图
     [self.view addSubview:tb];
+    
+    //创建分段控件
+    UISegmentedControl *seg = [[UISegmentedControl alloc] initWithItems:@[@"分组",@"全部"]];
+    
+    //设置所有选项卡的宽度
+    for (NSInteger i = 0; i < seg.numberOfSegments; i++) {
+        
+        [seg setWidth:65 forSegmentAtIndex:i];
+    }
+    
+    //设置默认被选中的分段
+    seg.selectedSegmentIndex = 0;
+    
+    self.navigationItem.titleView = seg;
 }
 
 /*
