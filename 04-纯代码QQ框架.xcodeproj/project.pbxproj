@@ -21,6 +21,7 @@
 		E136E4571E470742006E3CEB /* QQFunctionModel.m in Sources */ = {isa = PBXBuildFile; fileRef = E136E4561E470742006E3CEB /* QQFunctionModel.m */; };
 		E136E4591E470CCE006E3CEB /* QQZone.plist in Resources */ = {isa = PBXBuildFile; fileRef = E136E4581E470CCE006E3CEB /* QQZone.plist */; };
 		E136E45C1E470E46006E3CEB /* QQBaseFunctionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E136E45B1E470E46006E3CEB /* QQBaseFunctionViewController.m */; };
+		E136E45E1E471076006E3CEB /* QQSetting.plist in Resources */ = {isa = PBXBuildFile; fileRef = E136E45D1E471076006E3CEB /* QQSetting.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -50,6 +51,7 @@
 		E136E4581E470CCE006E3CEB /* QQZone.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = QQZone.plist; sourceTree = "<group>"; };
 		E136E45A1E470E46006E3CEB /* QQBaseFunctionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QQBaseFunctionViewController.h; sourceTree = "<group>"; };
 		E136E45B1E470E46006E3CEB /* QQBaseFunctionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QQBaseFunctionViewController.m; sourceTree = "<group>"; };
+		E136E45D1E471076006E3CEB /* QQSetting.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = QQSetting.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -160,6 +162,7 @@
 			children = (
 				E136E4491E46D548006E3CEB /* QQSettingViewController.h */,
 				E136E44A1E46D548006E3CEB /* QQSettingViewController.m */,
+				E136E45D1E471076006E3CEB /* QQSetting.plist */,
 			);
 			path = Setting;
 			sourceTree = "<group>";
@@ -235,6 +238,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E136E42D1E46CE5E006E3CEB /* Assets.xcassets in Resources */,
+				E136E45E1E471076006E3CEB /* QQSetting.plist in Resources */,
 				E136E4541E47059C006E3CEB /* QQAddContact.plist in Resources */,
 				E136E4591E470CCE006E3CEB /* QQZone.plist in Resources */,
 			);
