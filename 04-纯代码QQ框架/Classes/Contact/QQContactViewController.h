@@ -6,8 +6,8 @@
 //  Copyright © 2017年 itheima. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import "QQBaseViewController.h"
 
-@interface QQContactViewController : UIViewController
+@interface QQContactViewController : QQBaseViewController
 
 @end

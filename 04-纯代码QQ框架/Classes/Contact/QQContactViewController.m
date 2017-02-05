@@ -8,7 +8,10 @@
 
 #import "QQContactViewController.h"
 
-@interface QQContactViewController ()
+
+static NSString *rid = @"contact";
+
+@interface QQContactViewController () <UITableViewDataSource>
 
 @end
 
@@ -22,6 +25,40 @@
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+#pragma mark - 数据源方法
+-(NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section{
+    
+    return 10;
+}
+
+//返回cell
+-(UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
+    
+    //取cell
+    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:rid forIndexPath:indexPath];
+    
+    //给cell赋值
+    cell.textLabel.text = @(indexPath.row).description;
+    
+    //返回cell
+    return cell;
+}
+
+-(void)setupUI{
+    
+    //创建tableView
+    UITableView *tb = [[UITableView alloc] initWithFrame:self.view.bounds style:UITableViewStylePlain];
+    
+    //设置tableView数据源对象
+    tb.dataSource = self;
+    
+    //注册cell
+    [tb registerClass:[UITableViewCell class] forCellReuseIdentifier:rid];
+    
+    //把tableView添加到根视图
+    [self.view addSubview:tb];
 }
 
 /*
