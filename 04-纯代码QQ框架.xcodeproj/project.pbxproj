@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CD6A5FD21E4D56D400B85CC5 /* QQSideBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD6A5FD11E4D56D400B85CC5 /* QQSideBarViewController.m */; };
 		E136E4221E46CE5E006E3CEB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E136E4211E46CE5E006E3CEB /* main.m */; };
 		E136E4251E46CE5E006E3CEB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E136E4241E46CE5E006E3CEB /* AppDelegate.m */; };
 		E136E42D1E46CE5E006E3CEB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E136E42C1E46CE5E006E3CEB /* Assets.xcassets */; };
@@ -39,6 +40,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CD6A5FD01E4D56D400B85CC5 /* QQSideBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QQSideBarViewController.h; sourceTree = "<group>"; };
+		CD6A5FD11E4D56D400B85CC5 /* QQSideBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QQSideBarViewController.m; sourceTree = "<group>"; };
 		E136E41D1E46CE5E006E3CEB /* 04-纯代码QQ框架.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "04-纯代码QQ框架.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E136E4211E46CE5E006E3CEB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		E136E4231E46CE5E006E3CEB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -110,6 +113,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CD6A5FD41E4D56E700B85CC5 /* SideBar */ = {
+			isa = PBXGroup;
+			children = (
+				CD6A5FD01E4D56D400B85CC5 /* QQSideBarViewController.h */,
+				CD6A5FD11E4D56D400B85CC5 /* QQSideBarViewController.m */,
+			);
+			name = SideBar;
+			sourceTree = "<group>";
+		};
 		E136E4141E46CE5E006E3CEB = {
 			isa = PBXGroup;
 			children = (
@@ -150,6 +162,7 @@
 		E136E4371E46CEE1006E3CEB /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				CD6A5FD41E4D56E700B85CC5 /* SideBar */,
 				E136E4691E4717A7006E3CEB /* Lib */,
 				E136E44C1E46D8BF006E3CEB /* BaseClasses */,
 				E136E4391E46CEE1006E3CEB /* Main */,
@@ -376,6 +389,7 @@
 				E136E4221E46CE5E006E3CEB /* main.m in Sources */,
 				E136E4611E471240006E3CEB /* QQFunctionCell.m in Sources */,
 				E136E4871E4717A7006E3CEB /* MASConstraint.m in Sources */,
+				CD6A5FD21E4D56D400B85CC5 /* QQSideBarViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

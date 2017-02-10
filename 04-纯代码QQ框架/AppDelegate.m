@@ -8,6 +8,7 @@
 
 #import "AppDelegate.h"
 #import "QQMainViewController.h"
+#import "QQSideBarViewController.h"
 
 @interface AppDelegate ()
 
@@ -20,9 +21,10 @@
    
     //实例化window
     _window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+    _window.backgroundColor = [UIColor whiteColor];
     
     //设置window的根控制器
-    _window.rootViewController = [[QQMainViewController alloc] init];
+    _window.rootViewController = [[QQSideBarViewController alloc] init];
     
     //让window可见
     [_window makeKeyAndVisible];
